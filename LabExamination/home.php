@@ -43,17 +43,6 @@ $records = $studentObj->getAll();
     <meta charset="UTF-8">
     <title>Student Records</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .dropdown { position: absolute; right: 15px; top: 15px; display: inline-block; }
-        .dropbtn { background: none; border: none; font-size: 22px; cursor: pointer; color: #333; padding: 5px; }
-        .dropdown-content { display: none; position: absolute; right: 0; background-color: #fff; min-width: 140px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15); z-index: 1; border: 1px solid #ddd; border-radius: 4px; }
-        .dropdown-content a { color: #333; padding: 12px 16px; text-decoration: none; display: block; font-size: 14px; }
-        .dropdown-content a:hover { background-color: #f8f9fa; }
-        .dropdown:hover .dropdown-content { display: block; }
-        .card { position: relative; border: 1px solid #ddd; padding: 20px; margin-bottom: 10px; border-radius: 8px; }
-        .edit-container { background: #fefefe; padding: 20px; border: 2px solid #333; border-radius: 8px; }
-        input { width: 100%; padding: 10px; margin: 10px 0; display: block; }
-    </style>
 </head>
 <body>
 

@@ -23,7 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Student Management System - Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="login-page"> <div class="login-container">
+<body class="login-page">
+     <div class="login-container">
         <h1>Welcome to Student Management System</h1>
         <p>Enter your Credentials to Login!</p>
 

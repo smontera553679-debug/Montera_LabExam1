@@ -4,23 +4,38 @@
     <title>Create Student Record</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h2>Create Student Record</h2>
-    <form action="store_student_handling.php" method="POST">
-        <label>ID Number</label><br>
-        <input type="text" name="id_number" required><br><br>
-        
-        <label>Name</label><br>
-        <input type="text" name="name" required><br><br>
-        
-        <label>Email</label><br>
-        <input type="email" name="email" required><br><br>
-        
-        <label>Course</label><br>
-        <input type="text" name="course" required><br><br>
-        
-        <button type="submit">Add Student ➜</button>
-        <a href="home.php">Cancel</a>
-    </form>
+<body class="form-page">
+
+    <div class="form-container">
+        <h2>Add New Student</h2>
+
+        <form action="store_student_handling.php" method="POST">
+
+            <div class="form-group">
+                <label>ID Number</label>
+                <input type="text" name="id_number" required>
+            </div>
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Course</label>
+                <input type="text" name="course" required>
+            </div>
+
+            <button type="submit" class="primary-btn">Add Student ➜</button>
+            <a href="home.php" class="cancel-link">Cancel</a>
+
+        </form>
+    </div>
+
 </body>
 </html>
